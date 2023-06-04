@@ -8,17 +8,16 @@ A universal total curvature estimation method that works for both triangle meshe
 
 ## Dependencies
 
-- [open3d]
+The code was developed on MacOS 12.6, adapting from the template code of open3d, [open3d-cmake-find-package](https://github.com/isl-org/open3d-cmake-find-package.git)
+
+- [open3d](https://github.com/isl-org/Open3D.git)
 - [STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 - [eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) for matrix data structures
 - [openmp](http://polyscope.run/) for parallelization
-- [cgal] for delaunay triangulation
+- [cgal](https://www.cgal.org/) for delaunay triangulation
 
-## OS
 
-The code was developed on MacOS 12.6.
-
-**Run**
+## Run
 
 From within the `build` directory, for triangle mesh, just issue:
 
