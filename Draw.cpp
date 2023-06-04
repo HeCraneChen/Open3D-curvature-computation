@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
     
     ////////////////////////// for triangle mesh
     ////// reading in a triangle mesh and visualize
-    std::string filename = "./cow.ply";
+    std::string filename = "../data/cow.ply";
     // Create an empty TriangleMesh object
     auto mesh_ptr = std::make_shared<open3d::geometry::TriangleMesh>();
     // Read the mesh from the file
@@ -122,8 +122,8 @@ int main(int argc, char *argv[]) {
 
     //////////////////////////
     ////// reading in a point cloud and visualize
-    std::string filename_v = "./cow_points.ply";
-    std::string filename_n = "./cow_normals.ply";
+    std::string filename_v = "../data/cow_points.ply";
+    std::string filename_n = "../data/cow_normals.ply";
     // Create an empty PointCloud object
     auto point_cloud_ptr_v = std::make_shared<open3d::geometry::PointCloud>();
     auto point_cloud_ptr_n = std::make_shared<open3d::geometry::PointCloud>();

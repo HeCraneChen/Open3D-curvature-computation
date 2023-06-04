@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/crane/Downloads/open3d-cmake-find-package
+CMAKE_SOURCE_DIR = /Users/crane/Downloads/open3d-discrete-total-curvature
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/crane/Downloads/open3d-cmake-find-package/build
+CMAKE_BINARY_DIR = /Users/crane/Downloads/open3d-discrete-total-curvature/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Draw.dir/clean
 CMakeFiles/Draw.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Draw.dir/build.make CMakeFiles/Draw.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Draw.dir/build.make CMakeFiles/Draw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles --progress-num=1,2 "Built target Draw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles --progress-num=1,2 "Built target Draw"
 .PHONY : CMakeFiles/Draw.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Draw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Draw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles 0
 .PHONY : CMakeFiles/Draw.dir/rule
 
 # Convenience name for target.

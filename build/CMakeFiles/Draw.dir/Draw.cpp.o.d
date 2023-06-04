@@ -1,8 +1,8 @@
 CMakeFiles/Draw.dir/Draw.cpp.o: \
-  /Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp \
-  /Users/crane/open3d_install/include/open3d/Open3D.h \
-  /Users/crane/open3d_install/include/open3d/Open3DConfig.h \
-  /Users/crane/open3d_install/include/open3d/camera/PinholeCameraIntrinsic.h \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp \
+  /usr/local/include/open3d/Open3D.h \
+  /usr/local/include/open3d/Open3DConfig.h \
+  /usr/local/include/open3d/camera/PinholeCameraIntrinsic.h \
   /usr/local/include/Eigen/Core \
   /usr/local/include/Eigen/src/Core/util/DisableStupidWarnings.h \
   /usr/local/include/Eigen/src/Core/util/Macros.h \
@@ -558,60 +558,58 @@ CMakeFiles/Draw.dir/Draw.cpp.o: \
   /usr/local/include/Eigen/src/Core/StlIterators.h \
   /usr/local/include/Eigen/src/Core/GlobalFunctions.h \
   /usr/local/include/Eigen/src/Core/util/ReenableStupidWarnings.h \
-  /Users/crane/open3d_install/include/open3d/utility/IJsonConvertible.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/fmt/format.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/fmt/core.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/fmt/format-inl.h \
+  /usr/local/include/open3d/utility/IJsonConvertible.h \
+  /usr/local/include/fmt/format.h /usr/local/include/fmt/core.h \
+  /usr/local/include/fmt/format-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdarg \
-  /Users/crane/open3d_install/include/open3d/utility/Eigen.h \
+  /usr/local/include/open3d/utility/Eigen.h \
   /usr/local/include/Eigen/StdVector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
   /usr/local/include/Eigen/src/StlSupport/StdVector.h \
   /usr/local/include/Eigen/src/StlSupport/details.h \
-  /Users/crane/open3d_install/include/open3d/camera/PinholeCameraParameters.h \
-  /Users/crane/open3d_install/include/open3d/camera/PinholeCameraTrajectory.h \
-  /Users/crane/open3d_install/include/open3d/core/Blob.h \
+  /usr/local/include/open3d/camera/PinholeCameraParameters.h \
+  /usr/local/include/open3d/camera/PinholeCameraTrajectory.h \
+  /usr/local/include/open3d/core/Blob.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Users/crane/open3d_install/include/open3d/core/Device.h \
-  /Users/crane/open3d_install/include/open3d/core/MemoryManager.h \
+  /usr/local/include/open3d/core/Device.h \
+  /usr/local/include/open3d/core/MemoryManager.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Users/crane/open3d_install/include/open3d/core/DLPack.h \
-  /Users/crane/open3d_install/include/open3d/core/Dtype.h \
-  /Users/crane/open3d_install/include/open3d/Macro.h \
-  /Users/crane/open3d_install/include/open3d/core/Dispatch.h \
-  /Users/crane/open3d_install/include/open3d/utility/Logging.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/fmt/printf.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/fmt/ranges.h \
-  /Users/crane/open3d_install/include/open3d/core/EigenConverter.h \
-  /Users/crane/open3d_install/include/open3d/core/Tensor.h \
-  /Users/crane/open3d_install/include/open3d/core/Scalar.h \
-  /Users/crane/open3d_install/include/open3d/core/ShapeUtil.h \
-  /Users/crane/open3d_install/include/open3d/core/SizeVector.h \
-  /Users/crane/open3d_install/include/open3d/core/SmallVector.h \
-  /Users/crane/open3d_install/include/open3d/utility/Optional.h \
-  /Users/crane/open3d_install/include/open3d/core/TensorCheck.h \
-  /Users/crane/open3d_install/include/open3d/core/TensorInit.h \
-  /Users/crane/open3d_install/include/open3d/core/TensorKey.h \
-  /Users/crane/open3d_install/include/open3d/core/FunctionTraits.h \
-  /Users/crane/open3d_install/include/open3d/core/MemoryManagerStatistic.h \
+  /usr/local/include/open3d/core/DLPack.h \
+  /usr/local/include/open3d/core/Dtype.h \
+  /usr/local/include/open3d/Macro.h \
+  /usr/local/include/open3d/core/Dispatch.h \
+  /usr/local/include/open3d/utility/Logging.h \
+  /usr/local/include/fmt/printf.h /usr/local/include/fmt/ranges.h \
+  /usr/local/include/open3d/core/EigenConverter.h \
+  /usr/local/include/open3d/core/Tensor.h \
+  /usr/local/include/open3d/core/Scalar.h \
+  /usr/local/include/open3d/core/ShapeUtil.h \
+  /usr/local/include/open3d/core/SizeVector.h \
+  /usr/local/include/open3d/core/SmallVector.h \
+  /usr/local/include/open3d/utility/Optional.h \
+  /usr/local/include/open3d/core/TensorCheck.h \
+  /usr/local/include/open3d/core/TensorInit.h \
+  /usr/local/include/open3d/core/TensorKey.h \
+  /usr/local/include/open3d/core/FunctionTraits.h \
+  /usr/local/include/open3d/core/MemoryManagerStatistic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tree \
-  /Users/crane/open3d_install/include/open3d/core/TensorList.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/NearestNeighborSearch.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/FixedRadiusIndex.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/NNSIndex.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/NeighborSearchCommon.h \
-  /Users/crane/open3d_install/include/open3d/utility/MiniVec.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/KnnIndex.h \
-  /Users/crane/open3d_install/include/open3d/core/nns/NanoFlannIndex.h \
-  /Users/crane/open3d_install/include/open3d/data/Dataset.h \
-  /Users/crane/open3d_install/include/open3d/geometry/BoundingVolume.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Geometry3D.h \
+  /usr/local/include/open3d/core/TensorList.h \
+  /usr/local/include/open3d/core/nns/NearestNeighborSearch.h \
+  /usr/local/include/open3d/core/nns/FixedRadiusIndex.h \
+  /usr/local/include/open3d/core/nns/NNSIndex.h \
+  /usr/local/include/open3d/core/nns/NeighborSearchCommon.h \
+  /usr/local/include/open3d/utility/MiniVec.h \
+  /usr/local/include/open3d/core/nns/KnnIndex.h \
+  /usr/local/include/open3d/core/nns/NanoFlannIndex.h \
+  /usr/local/include/open3d/data/Dataset.h \
+  /usr/local/include/open3d/geometry/BoundingVolume.h \
+  /usr/local/include/open3d/geometry/Geometry3D.h \
   /usr/local/include/Eigen/Geometry /usr/local/include/Eigen/SVD \
   /usr/local/include/Eigen/QR /usr/local/include/Eigen/Cholesky \
   /usr/local/include/Eigen/Jacobi \
@@ -653,181 +651,181 @@ CMakeFiles/Draw.dir/Draw.cpp.o: \
   /usr/local/include/Eigen/src/Geometry/AlignedBox.h \
   /usr/local/include/Eigen/src/Geometry/Umeyama.h \
   /usr/local/include/Eigen/src/Geometry/arch/Geometry_SIMD.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Geometry.h \
-  /Users/crane/open3d_install/include/open3d/geometry/HalfEdgeTriangleMesh.h \
-  /Users/crane/open3d_install/include/open3d/geometry/MeshBase.h \
+  /usr/local/include/open3d/geometry/Geometry.h \
+  /usr/local/include/open3d/geometry/HalfEdgeTriangleMesh.h \
+  /usr/local/include/open3d/geometry/MeshBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
-  /Users/crane/open3d_install/include/open3d/utility/Helper.h \
+  /usr/local/include/open3d/utility/Helper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
-  /Users/crane/open3d_install/include/open3d/geometry/Image.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Geometry2D.h \
-  /Users/crane/open3d_install/include/open3d/geometry/KDTreeFlann.h \
-  /Users/crane/open3d_install/include/open3d/geometry/KDTreeSearchParam.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/Feature.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Keypoint.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Line3D.h \
-  /Users/crane/open3d_install/include/open3d/geometry/LineSet.h \
-  /Users/crane/open3d_install/include/open3d/geometry/Octree.h \
-  /Users/crane/open3d_install/include/open3d/geometry/PointCloud.h \
-  /Users/crane/open3d_install/include/open3d/geometry/RGBDImage.h \
-  /Users/crane/open3d_install/include/open3d/geometry/TriangleMesh.h \
-  /Users/crane/open3d_install/include/open3d/geometry/VoxelGrid.h \
-  /Users/crane/open3d_install/include/open3d/io/FeatureIO.h \
-  /Users/crane/open3d_install/include/open3d/io/FileFormatIO.h \
-  /Users/crane/open3d_install/include/open3d/io/IJsonConvertibleIO.h \
-  /Users/crane/open3d_install/include/open3d/io/ImageIO.h \
-  /Users/crane/open3d_install/include/open3d/io/LineSetIO.h \
-  /Users/crane/open3d_install/include/open3d/io/ModelIO.h \
-  /Users/crane/open3d_install/include/open3d/io/PinholeCameraTrajectoryIO.h \
-  /Users/crane/open3d_install/include/open3d/io/PointCloudIO.h \
-  /Users/crane/open3d_install/include/open3d/io/PoseGraphIO.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/PoseGraph.h \
-  /Users/crane/open3d_install/include/open3d/io/TriangleMeshIO.h \
-  /Users/crane/open3d_install/include/open3d/io/VoxelGridIO.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/color_map/NonRigidOptimizer.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/color_map/RigidOptimizer.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/integration/ScalableTSDFVolume.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/integration/TSDFVolume.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/integration/UniformTSDFVolume.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/odometry/Odometry.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/odometry/OdometryOption.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/odometry/RGBDOdometryJacobian.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/ColoredICP.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/Registration.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/CorrespondenceChecker.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/TransformationEstimation.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/RobustKernel.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/FastGlobalRegistration.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/GeneralizedICP.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/GlobalOptimization.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/GlobalOptimizationConvergenceCriteria.h \
-  /Users/crane/open3d_install/include/open3d/pipelines/registration/GlobalOptimizationMethod.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/Geometry.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/Image.h \
-  /Users/crane/open3d_install/include/open3d/core/kernel/UnaryEW.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/PointCloud.h \
-  /Users/crane/open3d_install/include/open3d/core/hashmap/HashMap.h \
-  /Users/crane/open3d_install/include/open3d/core/hashmap/HashBackendBuffer.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/BoundingVolume.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/DrawableGeometry.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Material.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/RGBDImage.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/TensorMap.h \
-  /Users/crane/open3d_install/include/open3d/t/geometry/TriangleMesh.h \
+  /usr/local/include/open3d/geometry/Image.h \
+  /usr/local/include/open3d/geometry/Geometry2D.h \
+  /usr/local/include/open3d/geometry/KDTreeFlann.h \
+  /usr/local/include/open3d/geometry/KDTreeSearchParam.h \
+  /usr/local/include/open3d/pipelines/registration/Feature.h \
+  /usr/local/include/open3d/geometry/Keypoint.h \
+  /usr/local/include/open3d/geometry/Line3D.h \
+  /usr/local/include/open3d/geometry/LineSet.h \
+  /usr/local/include/open3d/geometry/Octree.h \
+  /usr/local/include/open3d/geometry/PointCloud.h \
+  /usr/local/include/open3d/geometry/RGBDImage.h \
+  /usr/local/include/open3d/geometry/TriangleMesh.h \
+  /usr/local/include/open3d/geometry/VoxelGrid.h \
+  /usr/local/include/open3d/io/FeatureIO.h \
+  /usr/local/include/open3d/io/FileFormatIO.h \
+  /usr/local/include/open3d/io/IJsonConvertibleIO.h \
+  /usr/local/include/open3d/io/ImageIO.h \
+  /usr/local/include/open3d/io/LineSetIO.h \
+  /usr/local/include/open3d/io/ModelIO.h \
+  /usr/local/include/open3d/io/PinholeCameraTrajectoryIO.h \
+  /usr/local/include/open3d/io/PointCloudIO.h \
+  /usr/local/include/open3d/io/PoseGraphIO.h \
+  /usr/local/include/open3d/pipelines/registration/PoseGraph.h \
+  /usr/local/include/open3d/io/TriangleMeshIO.h \
+  /usr/local/include/open3d/io/VoxelGridIO.h \
+  /usr/local/include/open3d/pipelines/color_map/NonRigidOptimizer.h \
+  /usr/local/include/open3d/pipelines/color_map/RigidOptimizer.h \
+  /usr/local/include/open3d/pipelines/integration/ScalableTSDFVolume.h \
+  /usr/local/include/open3d/pipelines/integration/TSDFVolume.h \
+  /usr/local/include/open3d/pipelines/integration/UniformTSDFVolume.h \
+  /usr/local/include/open3d/pipelines/odometry/Odometry.h \
+  /usr/local/include/open3d/pipelines/odometry/OdometryOption.h \
+  /usr/local/include/open3d/pipelines/odometry/RGBDOdometryJacobian.h \
+  /usr/local/include/open3d/pipelines/registration/ColoredICP.h \
+  /usr/local/include/open3d/pipelines/registration/Registration.h \
+  /usr/local/include/open3d/pipelines/registration/CorrespondenceChecker.h \
+  /usr/local/include/open3d/pipelines/registration/TransformationEstimation.h \
+  /usr/local/include/open3d/pipelines/registration/RobustKernel.h \
+  /usr/local/include/open3d/pipelines/registration/FastGlobalRegistration.h \
+  /usr/local/include/open3d/pipelines/registration/GeneralizedICP.h \
+  /usr/local/include/open3d/pipelines/registration/GlobalOptimization.h \
+  /usr/local/include/open3d/pipelines/registration/GlobalOptimizationConvergenceCriteria.h \
+  /usr/local/include/open3d/pipelines/registration/GlobalOptimizationMethod.h \
+  /usr/local/include/open3d/t/geometry/Geometry.h \
+  /usr/local/include/open3d/t/geometry/Image.h \
+  /usr/local/include/open3d/core/kernel/UnaryEW.h \
+  /usr/local/include/open3d/t/geometry/PointCloud.h \
+  /usr/local/include/open3d/core/hashmap/HashMap.h \
+  /usr/local/include/open3d/core/hashmap/HashBackendBuffer.h \
+  /usr/local/include/open3d/t/geometry/BoundingVolume.h \
+  /usr/local/include/open3d/t/geometry/DrawableGeometry.h \
+  /usr/local/include/open3d/visualization/rendering/Material.h \
+  /usr/local/include/open3d/t/geometry/RGBDImage.h \
+  /usr/local/include/open3d/t/geometry/TensorMap.h \
+  /usr/local/include/open3d/t/geometry/TriangleMesh.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
-  /Users/crane/open3d_install/include/open3d/t/geometry/VoxelBlockGrid.h \
-  /Users/crane/open3d_install/include/open3d/t/io/HashMapIO.h \
-  /Users/crane/open3d_install/include/open3d/t/io/ImageIO.h \
-  /Users/crane/open3d_install/include/open3d/t/io/NumpyIO.h \
-  /Users/crane/open3d_install/include/open3d/t/io/PointCloudIO.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/kernel/TransformationConverter.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/odometry/RGBDOdometry.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/registration/Registration.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/registration/TransformationEstimation.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/registration/RobustKernel.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/slac/ControlGrid.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/slac/SLACOptimizer.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/slac/Visualization.h \
-  /Users/crane/open3d_install/include/open3d/utility/FileSystem.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/slam/Frame.h \
-  /Users/crane/open3d_install/include/open3d/t/pipelines/slam/Model.h \
-  /Users/crane/open3d_install/include/open3d/utility/CPUInfo.h \
-  /Users/crane/open3d_install/include/open3d/utility/CompilerInfo.h \
-  /Users/crane/open3d_install/include/open3d/utility/Console.h \
-  /Users/crane/open3d_install/include/open3d/utility/ISAInfo.h \
-  /Users/crane/open3d_install/include/open3d/utility/Parallel.h \
-  /Users/crane/open3d_install/include/open3d/utility/ProgressBar.h \
-  /Users/crane/open3d_install/include/open3d/utility/ProgressReporters.h \
-  /Users/crane/open3d_install/include/open3d/utility/Random.h \
-  /Users/crane/open3d_install/include/open3d/utility/Timer.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Application.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Font.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Gui.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Menu.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/MenuBase.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Events.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Button.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Widget.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/UIImage.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/RendererHandle.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Checkbox.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Color.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Combobox.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Dialog.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/ImageWidget.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Label.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Layout.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/ProgressBar.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/SceneWidget.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/View.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Slider.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/TabControl.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/TextEdit.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Theme.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/ToggleSwitch.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/TreeView.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/Window.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/WindowSystem.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Renderer.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/MaterialModifier.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Model.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/MaterialRecord.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Gradient.h \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/GLHelper.h \
+  /usr/local/include/open3d/t/geometry/VoxelBlockGrid.h \
+  /usr/local/include/open3d/t/io/HashMapIO.h \
+  /usr/local/include/open3d/t/io/ImageIO.h \
+  /usr/local/include/open3d/t/io/NumpyIO.h \
+  /usr/local/include/open3d/t/io/PointCloudIO.h \
+  /usr/local/include/open3d/t/pipelines/kernel/TransformationConverter.h \
+  /usr/local/include/open3d/t/pipelines/odometry/RGBDOdometry.h \
+  /usr/local/include/open3d/t/pipelines/registration/Registration.h \
+  /usr/local/include/open3d/t/pipelines/registration/TransformationEstimation.h \
+  /usr/local/include/open3d/t/pipelines/registration/RobustKernel.h \
+  /usr/local/include/open3d/t/pipelines/slac/ControlGrid.h \
+  /usr/local/include/open3d/t/pipelines/slac/SLACOptimizer.h \
+  /usr/local/include/open3d/t/pipelines/slac/Visualization.h \
+  /usr/local/include/open3d/utility/FileSystem.h \
+  /usr/local/include/open3d/t/pipelines/slam/Frame.h \
+  /usr/local/include/open3d/t/pipelines/slam/Model.h \
+  /usr/local/include/open3d/utility/CPUInfo.h \
+  /usr/local/include/open3d/utility/CompilerInfo.h \
+  /usr/local/include/open3d/utility/Console.h \
+  /usr/local/include/open3d/utility/ISAInfo.h \
+  /usr/local/include/open3d/utility/Parallel.h \
+  /usr/local/include/open3d/utility/ProgressBar.h \
+  /usr/local/include/open3d/utility/ProgressReporters.h \
+  /usr/local/include/open3d/utility/Random.h \
+  /usr/local/include/open3d/utility/Timer.h \
+  /usr/local/include/open3d/visualization/gui/Application.h \
+  /usr/local/include/open3d/visualization/gui/Font.h \
+  /usr/local/include/open3d/visualization/gui/Gui.h \
+  /usr/local/include/open3d/visualization/gui/Menu.h \
+  /usr/local/include/open3d/visualization/gui/MenuBase.h \
+  /usr/local/include/open3d/visualization/gui/Events.h \
+  /usr/local/include/open3d/visualization/gui/Button.h \
+  /usr/local/include/open3d/visualization/gui/Widget.h \
+  /usr/local/include/open3d/visualization/gui/UIImage.h \
+  /usr/local/include/open3d/visualization/rendering/RendererHandle.h \
+  /usr/local/include/open3d/visualization/gui/Checkbox.h \
+  /usr/local/include/open3d/visualization/gui/Color.h \
+  /usr/local/include/open3d/visualization/gui/Combobox.h \
+  /usr/local/include/open3d/visualization/gui/Dialog.h \
+  /usr/local/include/open3d/visualization/gui/ImageWidget.h \
+  /usr/local/include/open3d/visualization/gui/Label.h \
+  /usr/local/include/open3d/visualization/gui/Layout.h \
+  /usr/local/include/open3d/visualization/gui/ProgressBar.h \
+  /usr/local/include/open3d/visualization/gui/SceneWidget.h \
+  /usr/local/include/open3d/visualization/rendering/View.h \
+  /usr/local/include/open3d/visualization/gui/Slider.h \
+  /usr/local/include/open3d/visualization/gui/TabControl.h \
+  /usr/local/include/open3d/visualization/gui/TextEdit.h \
+  /usr/local/include/open3d/visualization/gui/Theme.h \
+  /usr/local/include/open3d/visualization/gui/ToggleSwitch.h \
+  /usr/local/include/open3d/visualization/gui/TreeView.h \
+  /usr/local/include/open3d/visualization/gui/Window.h \
+  /usr/local/include/open3d/visualization/gui/WindowSystem.h \
+  /usr/local/include/open3d/visualization/rendering/Renderer.h \
+  /usr/local/include/open3d/visualization/rendering/MaterialModifier.h \
+  /usr/local/include/open3d/visualization/rendering/Model.h \
+  /usr/local/include/open3d/visualization/rendering/MaterialRecord.h \
+  /usr/local/include/open3d/visualization/rendering/Gradient.h \
+  /usr/local/include/open3d/visualization/utility/GLHelper.h \
   /usr/local/include/GL/glew.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/os/availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Users/crane/open3d_install/include/open3d/3rdparty/GLFW/glfw3.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Open3DScene.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Scene.h \
-  /Users/crane/open3d_install/include/open3d/visualization/rendering/Camera.h \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/Draw.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/O3DVisualizer.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/O3DVisualizerSelections.h \
+  /usr/local/include/GLFW/glfw3.h \
+  /usr/local/include/open3d/visualization/rendering/Open3DScene.h \
+  /usr/local/include/open3d/visualization/rendering/Scene.h \
+  /usr/local/include/open3d/visualization/rendering/Camera.h \
+  /usr/local/include/open3d/visualization/utility/Draw.h \
+  /usr/local/include/open3d/visualization/visualizer/O3DVisualizer.h \
+  /usr/local/include/open3d/visualization/visualizer/O3DVisualizerSelections.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/set \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/DrawGeometry.h \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/SelectionPolygon.h \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/SelectionPolygonVolume.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/ViewControl.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/ViewParameters.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/ViewControlWithCustomAnimation.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/ViewTrajectory.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/ViewControlWithEditing.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/Visualizer.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/GeometryRenderer.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/ImageMaskShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/ShaderWrapper.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/RenderOption.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/ImageShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/NormalShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/PhongShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/PickingShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/RGBDImageShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/Simple2DShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/SimpleBlackShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/SimpleShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/TexturePhongShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/shader/TextureSimpleShader.h \
-  /Users/crane/open3d_install/include/open3d/visualization/utility/ColorMap.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/VisualizerWithCustomAnimation.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/VisualizerWithEditing.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/VisualizerWithKeyCallback.h \
-  /Users/crane/open3d_install/include/open3d/visualization/visualizer/VisualizerWithVertexSelection.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/realsense/RSBagReader.h \
+  /usr/local/include/open3d/visualization/utility/DrawGeometry.h \
+  /usr/local/include/open3d/visualization/utility/SelectionPolygon.h \
+  /usr/local/include/open3d/visualization/utility/SelectionPolygonVolume.h \
+  /usr/local/include/open3d/visualization/visualizer/ViewControl.h \
+  /usr/local/include/open3d/visualization/visualizer/ViewParameters.h \
+  /usr/local/include/open3d/visualization/visualizer/ViewControlWithCustomAnimation.h \
+  /usr/local/include/open3d/visualization/visualizer/ViewTrajectory.h \
+  /usr/local/include/open3d/visualization/visualizer/ViewControlWithEditing.h \
+  /usr/local/include/open3d/visualization/visualizer/Visualizer.h \
+  /usr/local/include/open3d/visualization/shader/GeometryRenderer.h \
+  /usr/local/include/open3d/visualization/shader/ImageMaskShader.h \
+  /usr/local/include/open3d/visualization/shader/ShaderWrapper.h \
+  /usr/local/include/open3d/visualization/visualizer/RenderOption.h \
+  /usr/local/include/open3d/visualization/shader/ImageShader.h \
+  /usr/local/include/open3d/visualization/shader/NormalShader.h \
+  /usr/local/include/open3d/visualization/shader/PhongShader.h \
+  /usr/local/include/open3d/visualization/shader/PickingShader.h \
+  /usr/local/include/open3d/visualization/shader/RGBDImageShader.h \
+  /usr/local/include/open3d/visualization/shader/Simple2DShader.h \
+  /usr/local/include/open3d/visualization/shader/SimpleBlackShader.h \
+  /usr/local/include/open3d/visualization/shader/SimpleShader.h \
+  /usr/local/include/open3d/visualization/shader/TexturePhongShader.h \
+  /usr/local/include/open3d/visualization/shader/TextureSimpleShader.h \
+  /usr/local/include/open3d/visualization/utility/ColorMap.h \
+  /usr/local/include/open3d/visualization/visualizer/VisualizerWithCustomAnimation.h \
+  /usr/local/include/open3d/visualization/visualizer/VisualizerWithEditing.h \
+  /usr/local/include/open3d/visualization/visualizer/VisualizerWithKeyCallback.h \
+  /usr/local/include/open3d/visualization/visualizer/VisualizerWithVertexSelection.h \
+  /usr/local/include/open3d/t/io/sensor/realsense/RSBagReader.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
-  /Users/crane/open3d_install/include/open3d/io/sensor/RGBDSensorConfig.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/RGBDVideoReader.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/RGBDVideoMetadata.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/realsense/RealSenseSensor.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/RGBDSensor.h \
-  /Users/crane/open3d_install/include/open3d/t/io/sensor/realsense/RealSenseSensorConfig.h \
-  /Users/crane/open3d_install/include/open3d/visualization/webrtc_server/WebRTCWindowSystem.h \
-  /Users/crane/open3d_install/include/open3d/visualization/gui/BitmapWindowSystem.h \
-  /Users/crane/Downloads/open3d-cmake-find-package/TotalCurvature.h \
+  /usr/local/include/open3d/io/sensor/RGBDSensorConfig.h \
+  /usr/local/include/open3d/t/io/sensor/RGBDVideoReader.h \
+  /usr/local/include/open3d/t/io/sensor/RGBDVideoMetadata.h \
+  /usr/local/include/open3d/t/io/sensor/realsense/RealSenseSensor.h \
+  /usr/local/include/open3d/t/io/sensor/RGBDSensor.h \
+  /usr/local/include/open3d/t/io/sensor/realsense/RealSenseSensorConfig.h \
+  /usr/local/include/open3d/visualization/webrtc_server/WebRTCWindowSystem.h \
+  /usr/local/include/open3d/visualization/gui/BitmapWindowSystem.h \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/TotalCurvature.h \
   /usr/local/include/Eigen/Sparse /usr/local/include/Eigen/SparseCore \
   /usr/local/include/Eigen/src/SparseCore/SparseUtil.h \
   /usr/local/include/Eigen/src/SparseCore/SparseMatrixBase.h \
@@ -900,11 +898,11 @@ CMakeFiles/Draw.dir/Draw.cpp.o: \
   /usr/local/include/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /usr/local/include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /usr/local/include/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
-  /Users/crane/Downloads/open3d-cmake-find-package/TotalCurvature.cpp \
-  /Users/crane/Downloads/open3d-cmake-find-package/CurvatureUtils.h \
-  /Users/crane/Downloads/open3d-cmake-find-package/CurvatureUtils.cpp \
-  /Users/crane/Downloads/open3d-cmake-find-package/TotalCurvaturePointCloud.h \
-  /Users/crane/Downloads/open3d-cmake-find-package/TotalCurvaturePointCloud.cpp \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/TotalCurvature.cpp \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/CurvatureUtils.h \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/CurvatureUtils.cpp \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/TotalCurvaturePointCloud.h \
+  /Users/crane/Downloads/open3d-discrete-total-curvature/TotalCurvaturePointCloud.cpp \
   /usr/local/include/Eigen/Dense /usr/local/include/Eigen/Eigenvalues \
   /usr/local/include/Eigen/src/Eigenvalues/Tridiagonalization.h \
   /usr/local/include/Eigen/src/Eigenvalues/RealSchur.h \

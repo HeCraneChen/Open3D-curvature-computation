@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp" "CMakeFiles/Draw.dir/Draw.cpp.o" "gcc" "CMakeFiles/Draw.dir/Draw.cpp.o.d"
+  "/Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp" "CMakeFiles/Draw.dir/Draw.cpp.o" "gcc" "CMakeFiles/Draw.dir/Draw.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

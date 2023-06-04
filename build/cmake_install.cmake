@@ -1,4 +1,4 @@
-# Install script for directory: /Users/crane/Downloads/open3d-cmake-find-package
+# Install script for directory: /Users/crane/Downloads/open3d-discrete-total-curvature
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/crane/Downloads/open3d-cmake-find-package/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/crane/Downloads/open3d-discrete-total-curvature/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

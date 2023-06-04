@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/crane/Downloads/open3d-cmake-find-package
+CMAKE_SOURCE_DIR = /Users/crane/Downloads/open3d-discrete-total-curvature
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/crane/Downloads/open3d-cmake-find-package/build
+CMAKE_BINARY_DIR = /Users/crane/Downloads/open3d-discrete-total-curvature/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Draw.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Draw.dir/progress.make
 include CMakeFiles/Draw.dir/flags.make
 
 CMakeFiles/Draw.dir/Draw.cpp.o: CMakeFiles/Draw.dir/flags.make
-CMakeFiles/Draw.dir/Draw.cpp.o: /Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp
+CMakeFiles/Draw.dir/Draw.cpp.o: /Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp
 CMakeFiles/Draw.dir/Draw.cpp.o: CMakeFiles/Draw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Draw.dir/Draw.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Draw.dir/Draw.cpp.o -MF CMakeFiles/Draw.dir/Draw.cpp.o.d -o CMakeFiles/Draw.dir/Draw.cpp.o -c /Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Draw.dir/Draw.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Draw.dir/Draw.cpp.o -MF CMakeFiles/Draw.dir/Draw.cpp.o.d -o CMakeFiles/Draw.dir/Draw.cpp.o -c /Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp
 
 CMakeFiles/Draw.dir/Draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Draw.dir/Draw.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp > CMakeFiles/Draw.dir/Draw.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp > CMakeFiles/Draw.dir/Draw.cpp.i
 
 CMakeFiles/Draw.dir/Draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Draw.dir/Draw.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/crane/Downloads/open3d-cmake-find-package/Draw.cpp -o CMakeFiles/Draw.dir/Draw.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/crane/Downloads/open3d-discrete-total-curvature/Draw.cpp -o CMakeFiles/Draw.dir/Draw.cpp.s
 
 # Object files for target Draw
 Draw_OBJECTS = \
@@ -92,13 +92,79 @@ Draw_EXTERNAL_OBJECTS =
 
 Draw: CMakeFiles/Draw.dir/Draw.cpp.o
 Draw: CMakeFiles/Draw.dir/build.make
-Draw: /Users/crane/open3d_install/lib/libOpen3D.dylib
+Draw: /usr/local/lib/libOpen3D.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_assimp.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_jpeg.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_jsoncpp.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_liblzf.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_curl.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_png.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_zlib.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_rply.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_tinyfiledialogs.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_qhullcpp.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_qhull_r.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_imgui.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_zeromq.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkFiltersGeneral-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkFiltersSources-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkFiltersModeling-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkFiltersCore-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonExecutionModel-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonDataModel-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonTransforms-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonMath-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonMisc-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonSystem-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkCommonCore-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkkissfft-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtkpugixml-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_vtk_vtksys-9.1.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_uvatlas.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_tbb_tbb_static.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_tbb_tbbmalloc_static.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_blas_mkl_intel_ilp64.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_blas_mkl_tbb_thread.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_blas_mkl_core.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_blas_tbb_static.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_embree3.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_embree_sse42.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_simd.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_lexers.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_sys.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_math.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_embree_tasking.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_webrtc_webrtc.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_webrtc_webrtc_extra.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_civetweb_civetweb.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_civetweb_civetweb-cpp.a
+Draw: /usr/local/lib/libomp.dylib
+Draw: /usr/local/lib/libOpen3D_3rdparty_ippicv_ippiw.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_ippicv_ippicv.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_glew.a
 Draw: /usr/local/lib/libgmpxx.dylib
 Draw: /usr/local/lib/libmpfr.dylib
 Draw: /usr/local/lib/libgmp.dylib
-Draw: /usr/local/lib/libomp.dylib
+Draw: /usr/local/lib/libOpen3D_3rdparty_glfw.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_fmt.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_filameshio.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_filament.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_filamat_lite.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_filaflat.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_filabridge.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_geometry.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_backend.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_bluegl.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_bluevk.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_ibl.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_image.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_meshoptimizer.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_smol-v.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_utils.a
+Draw: /usr/local/lib/libOpen3D_3rdparty_filament_vkshaders.a
+Draw: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
 Draw: CMakeFiles/Draw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Draw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Draw"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Draw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +176,6 @@ CMakeFiles/Draw.dir/clean:
 .PHONY : CMakeFiles/Draw.dir/clean
 
 CMakeFiles/Draw.dir/depend:
-	cd /Users/crane/Downloads/open3d-cmake-find-package/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/crane/Downloads/open3d-cmake-find-package /Users/crane/Downloads/open3d-cmake-find-package /Users/crane/Downloads/open3d-cmake-find-package/build /Users/crane/Downloads/open3d-cmake-find-package/build /Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles/Draw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/crane/Downloads/open3d-discrete-total-curvature/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/crane/Downloads/open3d-discrete-total-curvature /Users/crane/Downloads/open3d-discrete-total-curvature /Users/crane/Downloads/open3d-discrete-total-curvature/build /Users/crane/Downloads/open3d-discrete-total-curvature/build /Users/crane/Downloads/open3d-discrete-total-curvature/build/CMakeFiles/Draw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Draw.dir/depend
 
