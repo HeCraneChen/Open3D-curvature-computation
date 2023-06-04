@@ -25,7 +25,9 @@ On MacOS, just issue (make sure that Open3D and CGAL are already installed on yo
     cd open3d-discrete-total-curvature
     cd build
     ./Draw
-    ![o3d_curvature_output](https://github.com/HeCraneChen/open3d-discrete-total-curvature/assets/33951209/93043526-1115-48da-bd5e-2e7d3771d938)
+    
+
+![o3d_curvature_output](https://github.com/HeCraneChen/open3d-discrete-total-curvature/assets/33951209/81265c20-8aa2-454f-aa6f-52f2c68af776)
 
 
 **Compile**
