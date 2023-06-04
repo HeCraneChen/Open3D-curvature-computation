@@ -27,7 +27,7 @@ From within the `build` directory, for triangle mesh, just issue:
 
 Fetch the code with dependencies:
 
-    git clone https://github.com/HeCraneChen/total-curvature-estimation.git --recursive
+    git clone https://github.com/HeCraneChen/open3d-discrete-total-curvature.git --recursive
 
 Compile this project using the standard cmake routine:
 
