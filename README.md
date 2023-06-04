@@ -40,10 +40,10 @@ Compile this project using the standard cmake routine:
 ## Citation
 
 ```bibtex
-@incollection{chen2023estimating,
-  title={Estimating discrete total curvature with per triangle normal variation},
-  author={Crane He Chen},
-  booktitle={ACM SIGGRAPH 2023 Talks},
+@article{chen2023estimating,
+  title={Estimating Discrete Total Curvature with Per Triangle Normal Variation},
+  author={Chen, Crane He},
+  journal={arXiv preprint arXiv:2305.12653},
   year={2023}
 }
 ```
