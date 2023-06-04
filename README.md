@@ -1,6 +1,6 @@
 # Open3D -- Estimating Discrete Total Curvature with Per Triangle Normal Variation
 
-A universal total curvature estimation method that works for both triangle meshes and point clouds. For details, see the 2023 SIGGRAPH paper by Crane Chen under the supervision of Misha Kazhdan.
+A universal total curvature estimation method that works for both triangle meshes and point clouds. For details, see the [SIGGRAPH 2023 paper](https://arxiv.org/abs/2305.12653) by Crane Chen under the supervision of Misha Kazhdan.
 
 This codebase was developed on MacOS 12.6, adapting from the template code of open3d, [open3d-cmake-find-package](https://github.com/isl-org/open3d-cmake-find-package.git), original research code can be found [here](https://github.com/HeCraneChen/total-curvature-estimation.git).
 <img width="809" alt="o3d_curvature_teaser" src="https://github.com/HeCraneChen/open3d-discrete-total-curvature/assets/33951209/3297f9f8-9811-42de-8650-41397a10d3cc">
