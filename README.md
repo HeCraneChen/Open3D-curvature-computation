@@ -19,7 +19,7 @@ The code was developed on MacOS 12.6, adapting from the template code of open3d,
 
 ## Run
 
-Just issue:
+On MacOS, just issue (make sure that Open3D and CGAL are already installed on your machine, use Homebrew to install CGAL on MacOS):
 
     git clone https://github.com/HeCraneChen/open3d-discrete-total-curvature.git --recursive
     cd open3d-discrete-total-curvature
