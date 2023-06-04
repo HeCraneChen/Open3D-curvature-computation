@@ -31,19 +31,11 @@ Fetch the code with dependencies:
 
 Compile this project using the standard cmake routine:
 
-    cd total-curvature-estimation
+    cd open3d-discrete-total-curvature
     mkdir build
     cd build
     cmake ..
     make
-
-The above commands use FetchContent of CMake to automatically download libigl and its dependencies. If that did not work for you, try to point to the local libigl. In that case, use
-
-    cmake -DFETCHCONTENT_SOURCE_DIR_LIBIGL=../libigl ..
-to replace
-
-    cmake ..
-
 
 ## Citation
 
