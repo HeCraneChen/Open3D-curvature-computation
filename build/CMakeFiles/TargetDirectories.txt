@@ -1,0 +1,3 @@
+/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles/Draw.dir
+/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles/edit_cache.dir
+/Users/crane/Downloads/open3d-cmake-find-package/build/CMakeFiles/rebuild_cache.dir
