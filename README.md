@@ -28,7 +28,7 @@ Just issue:
 
 **Compile**
 
-Compile this project from scratch using the standard cmake routine (make sure that Open3D and CGAL are already installed on your machine):
+Compile this project from scratch using the standard cmake routine (make sure that Open3D and CGAL are already installed on your machine, use Homebrew to install CGAL on MacOS):
 
     cd open3d-discrete-total-curvature
     rm -r build
