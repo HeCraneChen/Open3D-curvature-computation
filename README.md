@@ -19,7 +19,7 @@ The code was developed on MacOS 12.6, adapting from the template code of open3d,
 
 ## Run
 
-Just issue,
+Just issue:
 
     git clone https://github.com/HeCraneChen/open3d-discrete-total-curvature.git --recursive
     cd open3d-discrete-total-curvature
