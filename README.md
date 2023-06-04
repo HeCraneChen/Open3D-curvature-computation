@@ -19,19 +19,19 @@ The code was developed on MacOS 12.6, adapting from the template code of open3d,
 
 ## Run
 
-From within the `build` directory, for triangle mesh, just issue:
+Just issue,
 
+    git clone https://github.com/HeCraneChen/open3d-discrete-total-curvature.git --recursive
+    cd open3d-discrete-total-curvature
+    cd build
     ./Draw
 
 **Compile**
 
-Fetch the code with dependencies:
-
-    git clone https://github.com/HeCraneChen/open3d-discrete-total-curvature.git --recursive
-
-Compile this project using the standard cmake routine:
+Compile this project from scratch using the standard cmake routine (make sure that Open3D and CGAL are already installed on your machine):
 
     cd open3d-discrete-total-curvature
+    rm -r build
     mkdir build
     cd build
     cmake ..
