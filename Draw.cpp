@@ -147,7 +147,7 @@ int main(int argc, char *argv[]) {
 
     // Apply the color map to the point cloud
     // Find the min and max values in scalar_values
-    Eigen::VectorXd k_S_PCD_vis = k_S_PCD.array().pow(0.0425);
+    Eigen::VectorXd k_S_PCD_vis = k_S_PCD.array().abs().pow(0.0425);
     double min_val_pcd = k_S_PCD_vis.minCoeff();
     double max_val_pcd = k_S_PCD_vis.maxCoeff();
     point_cloud_ptr_v->colors_.resize(point_cloud_ptr_v->points_.size());
